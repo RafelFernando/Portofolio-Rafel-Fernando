@@ -9,7 +9,7 @@ export default function Tools() {
     ]
 
     return (
-        <section className="w-full h-full px-[80px] my-[100px]">
+        <section className="w-full px-4 sm:px-8 md:px-16 lg:px-24">
             <div className="text-center mb-[60px] mt-[30px]">
                 <h1 className="text-4xl font-bold mb-2">Tools for Content Creator</h1>
             </div>
@@ -20,7 +20,7 @@ export default function Tools() {
                     grid-cols-4
                     sm:grid-cols-5
                     md:grid-cols-6
-                    lg:grid-cols-8
+                    lg:grid-cols-8z
                     xl:grid-cols-10
                     gap-4
                 "
