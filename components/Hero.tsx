@@ -27,7 +27,7 @@ export default function Hero() {
 
     useEffect(() => {
         const currentText = texts[textIndex];
-        let timeout;
+        let timeout: NodeJS.Timeout;
 
         if (!isDeleting && charIndex < currentText.length) {
             // MENGETIK
