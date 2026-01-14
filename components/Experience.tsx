@@ -37,7 +37,7 @@ export default function Experience() {
 
     return (
         <section className="w-full h-full flex flex-col lg:flex-row">
-            <div className=" w-full h-full px-[80px] py-[50px]">
+            <div className=" w-full h-full px-[40px] md:px-[80px] py-[50px]">
                 <div className="text-center mt-[20px] lg:mt-[40px] mb-[50px] lg:mb-[70px]">
                     <h1 className="font-body text-4xl font-bold mb-2">My Experience</h1>
                 </div>
